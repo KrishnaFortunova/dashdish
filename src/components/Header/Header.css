@@ -1,0 +1,43 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  background: #242424;
+  color: #fff;
+}
+
+.header a {
+  margin-left: 10px;
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.header a.home {
+  background-color: #242424;
+}
+
+.header a.logout {
+  background-color: #5C3018;
+}
+
+.header a:hover {
+  background-color: #F6DC98;
+}
+
+.header a.logout:hover {
+  background-color: #242424;
+}
