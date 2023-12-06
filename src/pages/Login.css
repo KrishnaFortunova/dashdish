@@ -1,0 +1,49 @@
+#Login {
+    background-color: #F6EBD0;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 1.8rem;
+}
+
+html,
+body,
+#root,
+#Login,
+#Signup {
+    height: 100%;
+}
+
+.left-box {
+    width: 40%;
+    background-color: whitesmoke;
+}
+
+#auth-form {
+    width: 20rem;
+}
+
+.right-box {
+    width: 60%;
+    height: 100%;
+    background: url('../../public/img/hexagonbg.png');
+}
+
+.right-box img {
+    height: 90% !important;
+}
+
+.notif {
+    font-family: 'Times New Roman', Times, serif;
+    color: #969696;
+    margin-bottom: 0;
+}
+
+#error-box {
+    background-color: #fddbdb;
+    color: #bb5151;
+    border: 1px solid #bb5151;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}

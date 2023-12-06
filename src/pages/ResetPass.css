@@ -1,0 +1,17 @@
+#ResetPass {
+    height: 100%;
+}
+
+#reset-box {
+    background-color: whitesmoke;
+    width: 30%;
+    height: fit-content;
+    padding: 10rem 3.5rem;
+    border-radius: 0.83rem;
+    filter: drop-shadow(0px 0px 10px grey);
+}
+
+#check-logo {
+    width: 40%;
+    filter: drop-shadow(0px 0px 10px grey);
+}
