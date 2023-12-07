@@ -25,11 +25,11 @@ const Login = observer(() => {
         ui.start('#firebaseui-auth-container', {
             callbacks: {
                 signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+                    navigate('/')
                     return true;
                 },
             },
             signInFlow: 'popup',
-            signInSuccessUrl: '/',
             signInOptions: [
                 GoogleAuthProvider.PROVIDER_ID
             ]
@@ -84,7 +84,7 @@ const Login = observer(() => {
                     </form>
 
                     <div>
-                        <span className="anchor-span" onClick={() => navigate('/reset-pass')}>Lupa Password?</span>
+                        <span className="anchor-span" onClick={() => navigate('/reset-pass')} style={{ cursor: 'pointer' }}>Lupa Password?</span>
                     </div>
 
                     <div id="firebaseui-auth-container"></div>

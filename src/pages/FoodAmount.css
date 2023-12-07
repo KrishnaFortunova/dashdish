@@ -1,7 +1,8 @@
 .food-container {
-    color:#000000;
+    color: #000000;
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between;
+    /* Adjust as needed */
     margin: -100px;
     flex-direction: column;
     align-items: center;
@@ -11,25 +12,31 @@
 .food-main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 20px; /* Adjust as needed */
+    gap: 20px;
+    /* Adjust as needed */
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px;
+    /* Adjust as needed */
 }
 
 .food-quantity-container {
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px;
+    /* Adjust as needed */
     display: flex;
     align-items: center;
     margin-left: -300px;
-  }
-  
+}
+
 .food-quantity-container button {
-    margin: 0 5px; /* Adjust as needed */
+    margin: 0 5px;
+    /* Adjust as needed */
 }
 
 .food-quantity-button {
-    background-color: #000000; /* Example background color for buttons */
-    color: #fff; /* Example text color for buttons */
+    background-color: #000000;
+    /* Example background color for buttons */
+    color: #fff;
+    /* Example text color for buttons */
     border: none;
     padding: 5px 10px;
     cursor: pointer;
@@ -47,20 +54,22 @@
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    text-decoration: none; 
-  }
-  
+    text-decoration: none;
+}
+
 .food-button-link {
     display: inline-block;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px;
+    /* Adjust as needed */
 }
-  
+
 .food-custom-button:hover {
-    background-color: #000000; 
+    background-color: #000000;
 }
 
 .food-button-spacing {
-    width: 500px; /* Adjust as needed */
+    width: 500px;
+    /* Adjust as needed */
 }
 
 .food-container-title {
@@ -68,10 +77,14 @@
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #F6DC98; /* Oval background color */
-    color: #000000; /* Text color */
-    padding: 10px 20px; /* Adjust padding as needed */
-    border-radius: 50% / 50%; /* Set border-radius to create an oval shape */
+    background-color: #F6DC98;
+    /* Oval background color */
+    color: #000000;
+    /* Text color */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border-radius: 50% / 50%;
+    /* Set border-radius to create an oval shape */
     border: 2px solid #000000;
     width: 200px;
     text-align: center;
@@ -83,25 +96,33 @@
 }
 
 .food-main-text {
-     /* Example background color */
-    padding: 10px; /* Example padding */
+    /* Example background color */
+    padding: 10px;
+    /* Example padding */
 }
 
-.food-main-text h2{
+.food-main-text h2 {
     color: #000000;
     font-size: 32px;
     text-align: left;
 }
 
-.food-main-text h3{
+.food-main-text h3 {
     color: #000000;
     font-size: 28px;
     text-align: center;
 }
 
-.food-main-text p{
+.food-main-text p {
     color: #000000;
     font-size: 24px;
     text-align: center;
 }
 
+
+.add-to-cart {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.83rem;
+}

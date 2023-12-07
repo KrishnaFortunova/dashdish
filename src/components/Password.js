@@ -13,9 +13,9 @@ const Password = ({ onChange }) => {
     }
 
     return (
-        <div class="input-group mb-3">
-            <input type="password" name="password" class="form-control" placeholder="Password" id="password" onChange={onChange} />
-            <span class="input-group-text" id="basic-addon2" onClick={showHide} style={{ cursor: 'pointer' }}>
+        <div className="input-group mb-3">
+            <input type="password" name="password" maxLength="16" className="form-control" placeholder="Password" id="password" onChange={onChange} />
+            <span className="input-group-text" id="basic-addon2" onClick={showHide} style={{ cursor: 'pointer' }}>
                 <i id="pass-toggle" className="bi bi-eye"></i>
             </span>
         </div>

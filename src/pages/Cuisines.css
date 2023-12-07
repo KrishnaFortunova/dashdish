@@ -1,59 +1,91 @@
 #Cuisines {
     background: url('../../public/img/heringbone.png');
-    height: 100%;
+    background-size: cover;
+    position: relative; /* Menetapkan posisi relatif untuk mengontrol z-index */
+    z-index: 1; /* Menetapkan tingkat penataan */
 }
 
 #bg-top {
     width: 100%;
 }
 
-.logo {
+.cuisine-logo {
     width: 4rem;
     height: 4rem;
 }
 
-.title {
+.cuisine-title {
     background-color: #F6DC98;
     border: 1px solid brown;
     border-radius: 50% 50%;
     padding: 2.4rem;
+    margin-top: 20px;
 }
 
-ul {
+.cuisine-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.5rem;
+    padding-top: 4;
+    padding-bottom: 4;
+}
+
+.cuisine-box {
+    display: flex;
+    align-items: center;
+    padding: 5;
+    gap: 5;
+    background-color: #5C3018;
+    color: #F6DC98;
+    justify-content: space-around;
+    width: 1000px;
+    height: 12rem;
+    cursor: pointer;
+}
+
+.cuisine-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cuisine-link:nth-child(3) .cuisine-box {
+    background-color: black;
+    color: white;
+}
+
+.cuisine-link:nth-child(4) .cuisine-box {
+    background-color: #F6DC98;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+.cuisine-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3;
+}
+
+.cuisine-mb-0 {
+    align-items: center;
+}
+
+.cuisine-d-flex {
     list-style-type: none;
 }
+
+
 
 ul li a {
     text-decoration: none;
 }
 
-.nav-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    color: whitesmoke;
-    filter: drop-shadow(0px 0px 20px rgb(65, 65, 65))
-}
-
-.nav-button:hover {
-    background-color: #464646 !important;
-}
-
-.box {
-    justify-content: space-around;
-    width: 60%;
-    height: 12rem;
-    cursor: pointer;
-}
-
-.box:hover {
+.cuisine-box:hover {
     filter: drop-shadow(0px 0px 10px rgb(255, 190, 86))
 }
 
-.box img {
+.cuisine-box img {
     width: 16rem;
 }
