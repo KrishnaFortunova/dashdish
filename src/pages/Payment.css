@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+.payment {
+    background-image: url('../../public/img/ladder.png');
+    background-color: #F6EBD0;
+    background-size: contain;
+    width: 100%;
+    height: 117.7vh;
+}
+
+.navbar {
+    background: transparent;
+    z-index: 1;
+}
+
+.payment-content {
+    width: 200px;
+    /* height: 52px; */
+    background-color: #F6DC98;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+.card-payment {
+    max-width: 50vh;
+}
+
+.label-method {
+    bottom: 4.5rem;
+}
+
+.button-coklat {
+    background-color: #F6EBD0;
+    border: solid 1px #F6EBD0;
+    border-radius: 30px;
+}
+
+.continue {
+    width: 10rem;
+}
+
+.foot {
+    width: 100%;
+    /* left: 0; */
+    bottom: 0;
+}
+
+.button-group {
+    margin-left: 50rem;
+}
